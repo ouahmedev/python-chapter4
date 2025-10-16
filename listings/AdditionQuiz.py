@@ -4,6 +4,7 @@ import random
 number1 = random.randint(0, 9)
 number2 = random.randint(0, 9)
 
+# Prompt the user to answer the question
 answer = eval(input("What is " + str(number1) + " + " + str(number2) + "? "))
 
 # Display the result
